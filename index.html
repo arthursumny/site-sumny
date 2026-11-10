@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arthur Sumny Saggin — Desenvolvedor Full Stack</title>
+  <meta name="description" content="Desenvolvedor full stack em Joaçaba, SC. Construo produtos SaaS com IA que rodam em produção: arquitetura, backend, integrações, deploy e operação.">
+  <meta property="og:title" content="Arthur Sumny Saggin — Desenvolvedor Full Stack">
+  <meta property="og:description" content="Desenvolvedor full stack. Construo produtos SaaS com IA que rodam em produção: arquitetura, backend, integrações, deploy e operação.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sumny.tech/">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23F6F4EF'/%3E%3Crect x='2' y='2' width='60' height='60' fill='none' stroke='%2316181C' stroke-width='2'/%3E%3Cline x1='12' y1='50' x2='52' y2='50' stroke='%23C2410C' stroke-width='3'/%3E%3Ctext x='32' y='41' text-anchor='middle' font-family='Georgia, serif' font-size='26' fill='%2316181C'%3EAS%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo-principal">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand-group">
+        <a class="brand-link" href="index.html">Arthur Sumny Saggin</a>
+        <span class="brand-location">Joaçaba, SC</span>
+      </div>
+
+      <div class="header-actions">
+        <a class="header-link" href="projetos.html">Estudos de caso</a>
+        <a class="header-link" href="https://github.com/arthursumny" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a class="btn-cv" href="assets/curriculo-arthur-sumny.pdf" download>Currículo</a>
+        <button
+          type="button"
+          class="mobile-nav-toggle"
+          aria-expanded="false"
+          aria-controls="mobile-nav-panel"
+          aria-label="Alternar índice de navegação"
+        >
+          Índice
+        </button>
+      </div>
+    </div>
+
+    <nav id="mobile-nav-panel" class="mobile-nav-panel" aria-label="Índice e navegação (mobile)">
+      <div class="container mobile-nav-inner">
+        <div class="mobile-nav-group">
+          <span class="label-mono mobile-nav-heading">Índice do documento</span>
+          <ul class="mobile-nav-list">
+            <li><a class="mobile-nav-link" href="#introducao"><span class="index-num">01</span> Introdução</a></li>
+            <li><a class="mobile-nav-link" href="#sobre"><span class="index-num">02</span> Sobre</a></li>
+            <li><a class="mobile-nav-link" href="#projetos"><span class="index-num">03</span> Trabalho</a></li>
+            <li><a class="mobile-nav-link" href="#outros-produtos"><span class="index-num">04</span> Outros produtos</a></li>
+            <li><a class="mobile-nav-link" href="#stack"><span class="index-num">05</span> Stack</a></li>
+            <li><a class="mobile-nav-link" href="#agora"><span class="index-num">06</span> Agora</a></li>
+            <li><a class="mobile-nav-link" href="#contato"><span class="index-num">07</span> Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="mobile-nav-group mobile-nav-footer">
+          <span class="label-mono mobile-nav-heading">Páginas &amp; Links</span>
+          <div class="mobile-nav-actions">
+            <a class="mobile-nav-action" href="projetos.html">Estudos de caso →</a>
+            <a class="mobile-nav-action" href="https://github.com/arthursumny" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            <a class="mobile-nav-action mobile-nav-cv" href="assets/curriculo-arthur-sumny.pdf" download>Currículo (PDF) ↓</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container workspace-grid">
+    <aside class="sidebar-index" aria-label="Índice do documento">
+      <span class="label-mono sidebar-title">Índice</span>
+      <nav aria-label="Seções da página">
+        <ul class="index-list">
+          <li><a class="index-link" href="#introducao" aria-current="location"><span class="index-num">01</span> Introdução</a></li>
+          <li><a class="index-link" href="#sobre"><span class="index-num">02</span> Sobre</a></li>
+          <li><a class="index-link" href="#projetos"><span class="index-num">03</span> Trabalho</a></li>
+          <li><a class="index-link" href="#outros-produtos"><span class="index-num">04</span> Outros produtos</a></li>
+          <li><a class="index-link" href="#stack"><span class="index-num">05</span> Stack</a></li>
+          <li><a class="index-link" href="#agora"><span class="index-num">06</span> Agora</a></li>
+          <li><a class="index-link" href="#contato"><span class="index-num">07</span> Contato</a></li>
+        </ul>
+      </nav>
+      <div class="sidebar-meta">
+        <span class="label-mono">Joaçaba, SC</span>
+        <a class="project-kbd-link" href="projetos.html">
+          <kbd>3 estudos de caso →</kbd>
+        </a>
+      </div>
+    </aside>
+
+    <main id="conteudo-principal" class="content-column">
+      <!-- 01 — Hero / Introdução -->
+      <section id="introducao" class="doc-section" aria-labelledby="hero-heading">
+        <div class="section-header">
+          <div class="section-kicker">
+            <span class="section-filet" aria-hidden="true"></span>
+            <span class="section-number">01 —</span>
+            <span>Introdução</span>
+          </div>
+          <h1 id="hero-heading" class="hero-name">Arthur Sumny Saggin</h1>
+        </div>
+
+        <p class="hero-positioning">
+          Desenvolvedor full stack. Construo produtos SaaS com IA que rodam em produção.
+        </p>
+        <p class="hero-support">
+          Do problema do negócio ao servidor: arquitetura, backend, integrações, deploy e operação. Hoje mantenho uma plataforma de atendimento multicanal e construo agentes de IA em cima dela.
+        </p>
+
+        <div class="hero-links">
+          <a class="link-primary" href="#projetos">Ver projetos</a>
+          <a class="link-secondary" href="assets/curriculo-arthur-sumny.pdf" download>Baixar currículo</a>
+        </div>
+
+        <dl class="metrics-strip" aria-label="Indicadores de experiência">
+          <div class="metric-cell">
+            <dt class="metric-value">4+</dt>
+            <dd class="metric-label">anos construindo software</dd>
+          </div>
+          <div class="metric-cell">
+            <dt class="metric-value">10+</dt>
+            <dd class="metric-label">produtos entregues</dd>
+          </div>
+          <div class="metric-cell">
+            <dt class="metric-value">6</dt>
+            <dd class="metric-label">agentes de IA em produção</dd>
+          </div>
+          <div class="metric-cell">
+            <dt class="metric-value">1</dt>
+            <dd class="metric-label">SaaS cofundado</dd>
+          </div>
+        </dl>
+      </section>
+
+      <!-- 02 — Sobre -->
+      <section id="sobre" class="doc-section" aria-labelledby="sobre-heading">
+        <div class="section-header">
+          <div class="section-kicker">
+            <span class="section-filet" aria-hidden="true"></span>
+            <span class="section-number">02 —</span>
+            <span>Perfil técnico</span>
+          </div>
+          <h2 id="sobre-heading" class="section-title">Sobre</h2>
+        </div>
+
+        <div class="prose-block">
+          <p>
+            Trabalho com TypeScript, Node.js, Python, PostgreSQL e Docker. Nos últimos anos, com integração de LLMs, agentes de IA e automação de processos.
+          </p>
+          <p>
+            Sou cofundador da Pront.ai, SaaS de documentação clínica assistida por IA, e responsável pela infraestrutura de uma plataforma de atendimento multicanal usada por empresas com marca própria. Gosto do problema que ninguém quer pegar: legado, integração quebrada, deploy que ninguém sabe refazer.
+          </p>
+        </div>
+
+        <div class="work-principles">
+          <span class="label-mono work-principles-title">Como eu trabalho</span>
+          <ol class="principles-list">
+            <li class="principles-item">
+              <span class="principles-num">01</span>
+              <span>Do problema do negócio ao servidor: desenho a arquitetura, escrevo o backend, fecho as integrações e sustento o deploy e a operação em VPS.</span>
+            </li>
+            <li class="principles-item">
+              <span class="principles-num">02</span>
+              <span>Operação rastreável e previsível: webhooks idempotentes, auditoria obrigatória em fluxo financeiro e controle rígido de custo em inferência de IA.</span>
+            </li>
+            <li class="principles-item">
+              <span class="principles-num">03</span>
+              <span>Assumo o problema que ninguém quer pegar: legado em produção, integração quebrada com serviços externos e deploy que ninguém sabe refazer.</span>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- 03 — Trabalho selecionado -->
+      <section id="projetos" class="doc-section" aria-labelledby="projetos-heading">
+        <div class="section-header">
+          <div class="section-kicker">
+            <span class="section-filet" aria-hidden="true"></span>
+            <span class="section-number">03 —</span>
+            <span>Engenharia em produção</span>
+          </div>
+          <h2 id="projetos-heading" class="section-title">Trabalho selecionado</h2>
+        </div>
+
+        <div class="projects-list">
+          <!-- Projeto 01 -->
+          <article class="project-card">
+            <div class="project-top">
+              <div class="project-heading-group">
+                <span class="project-index">01</span>
+                <h3 class="project-title">Plataforma multicanal whitelabel + agentes de IA</h3>
+              </div>
+              <span class="project-period">DevzGroup · desde 2025</span>
+            </div>
+            <p class="project-description">
+              Plataforma de atendimento multicanal que empresas usam com a própria marca, em vários canais. Sou responsável pela infraestrutura, atualizações, integração com WhatsApp (Evolution API), monitoramento e suporte aos clientes. Sobre ela construí uma camada de agentes de IA com servidores MCP e RAG.
+            </p>
+            <p class="project-highlight">
+              <strong>Destaque técnico:</strong> Camada de agentes de IA acoplada via protocolo MCP e busca contextual com RAG sobre infraestrutura multi-tenant em Docker/Dokploy integrada à Evolution API.
+            </p>
+            <div class="project-footer">
+              <ul class="tag-list" aria-label="Tecnologias e conceitos">
+                <li class="tag-item">multi-tenant</li>
+                <li class="tag-item">Evolution API</li>
+                <li class="tag-item">MCP</li>
+                <li class="tag-item">RAG</li>
+                <li class="tag-item">Docker/Dokploy</li>
+              </ul>
+              <a class="project-kbd-link" href="projetos.html#plataforma-multicanal">
+                <kbd>estudo de caso →</kbd>
+              </a>
+            </div>
+          </article>
+
+          <!-- Projeto 02 -->
+          <article class="project-card">
+            <div class="project-top">
+              <div class="project-heading-group">
+                <span class="project-index">02</span>
+                <h3 class="project-title">Pallagi Med</h3>
+              </div>
+              <span class="project-period">DevzGroup · 2025–2026</span>
+            </div>
+            <p class="project-description">
+              Sistema de gestão para clínicas: agenda, prontuário, financeiro e repasses. Responsável pela cobrança por boleto com a Safe2Pay: confirmação automática de pagamento, proteção contra duplicidade e registro de auditoria obrigatório em toda operação financeira.
+            </p>
+            <p class="project-highlight">
+              <strong>Destaque técnico:</strong> Processamento idempotente de webhooks da Safe2Pay para impedir baixas duplicadas e trilha de auditoria fail-closed em toda transação financeira.
+            </p>
+            <div class="project-footer">
+              <ul class="tag-list" aria-label="Tecnologias e conceitos">
+                <li class="tag-item">webhook idempotente</li>
+                <li class="tag-item">auditoria fail-closed</li>
+              </ul>
+              <a class="project-kbd-link" href="projetos.html#pallagi-med">
+                <kbd>estudo de caso →</kbd>
+              </a>
+            </div>
+          </article>
+
+          <!-- Projeto 03 -->
+          <article class="project-card">
+            <div class="project-top">
+              <div class="project-heading-group">
+                <span class="project-index">03</span>
+                <h3 class="project-title">Pront.ai</h3>
+              </div>
+              <span class="project-period">Cofundador · desde 2025</span>
+            </div>
+            <p class="project-description">
+              SaaS de documentação clínica assistida por IA, do zero ao cliente pagante. O médico grava a consulta e recebe o registro estruturado: transcrição com Whisper, estruturação automática do texto e busca semântica no histórico do paciente.
+            </p>
+            <p class="project-highlight">
+              <strong>Destaque técnico:</strong> Pipeline em filas assíncronas para transcrição com Whisper, estruturação clínica e indexação de embeddings no PostgreSQL com pgvector.
+            </p>
+            <div class="project-footer">
+              <ul class="tag-list" aria-label="Tecnologias e conceitos">
+                <li class="tag-item">Whisper</li>
+                <li class="tag-item">pgvector</li>
+                <li class="tag-item">filas assíncronas</li>
+              </ul>
+              <a class="project-kbd-link" href="projetos.html#pront-ai">
+                <kbd>estudo de caso →</kbd>
+              </a>
+            </div>
+          </article>
+
+          <!-- Projeto 04 -->
+          <article class="project-card">
+            <div class="project-top">
+              <div class="project-heading-group">
+                <span class="project-index">04</span>
+                <h3 class="project-title">Agentes de IA para atendimento e suporte</h3>
+              </div>
+              <span class="project-period">DevzGroup · 2025–2026</span>
+            </div>
+            <p class="project-description">
+              Agentes que atendem no WhatsApp: respondem com base no conhecimento de cada cliente, consultam sistemas internos e transferem para atendimento humano quando necessário.
+            </p>
+            <p class="project-highlight">
+              <strong>Destaque técnico:</strong> Orquestração de tool calling e servidores MCP para consulta a sistemas internos em tempo real e transbordo controlado para operador humano.
+            </p>
+            <div class="project-footer">
+              <ul class="tag-list" aria-label="Tecnologias e conceitos">
+                <li class="tag-item">tool calling</li>
+                <li class="tag-item">MCP</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Projeto 05 -->
+          <article class="project-card">
+            <div class="project-top">
+              <div class="project-heading-group">
+                <span class="project-index">05</span>
+                <h3 class="project-title">Agente de previsão de mercados</h3>
+              </div>
+              <span class="project-period">Projeto pessoal · 2026</span>
+            </div>
+            <p class="project-description">
+              Agente que pesquisa mercados de predição e decide com um comitê de LLMs, operando em simulação com gestão de risco e teto de custo de IA. O desempenho é medido por Brier Score contra o baseline do mercado antes de qualquer capital real.
+            </p>
+            <p class="project-highlight">
+              <strong>Destaque técnico:</strong> Decisão colegiada multi-LLM sob orçamento estrito de inferência e avaliação de calibração probabilística por Brier Score contra o baseline do mercado.
+            </p>
+            <div class="project-footer">
+              <ul class="tag-list" aria-label="Tecnologias e conceitos">
+                <li class="tag-item">multi-LLM</li>
+                <li class="tag-item">Brier Score</li>
+                <li class="tag-item">controle de custo</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Projeto 06 -->
+          <article class="project-card">
+            <div class="project-top">
+              <div class="project-heading-group">
+                <span class="project-index">06</span>
+                <h3 class="project-title">Automação de cortes para YouTube</h3>
+              </div>
+              <span class="project-period">Projeto pessoal · 2026</span>
+            </div>
+            <p class="project-description">
+              Pipeline que baixa lives, transcreve, escolhe os trechos com LLM, renderiza em 9:16 com enquadramento por detecção de faces e publica no canal dentro de limites e horários definidos.
+            </p>
+            <p class="project-highlight">
+              <strong>Destaque técnico:</strong> Recorte e renderização vertical 9:16 automatizados via FFmpeg com enquadramento guiado por detecção de faces e agendamento na YouTube Data API.
+            </p>
+            <div class="project-footer">
+              <ul class="tag-list" aria-label="Tecnologias e conceitos">
+                <li class="tag-item">FFmpeg</li>
+                <li class="tag-item">YouTube API</li>
+                <li class="tag-item">agendamento</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 04 — Outros produtos -->
+      <section id="outros-produtos" class="doc-section" aria-labelledby="outros-heading">
+        <div class="section-header">
+          <div class="section-kicker">
+            <span class="section-filet" aria-hidden="true"></span>
+            <span class="section-number">04 —</span>
+            <span>Histórico de entregas</span>
+          </div>
+          <h2 id="outros-heading" class="section-title">Outros produtos</h2>
+        </div>
+
+        <ul class="compact-products">
+          <li class="compact-product-row">
+            <div class="compact-product-main">
+              <span class="project-index">01</span>
+              <span class="compact-product-name">Minha Prece</span>
+            </div>
+            <span class="label-mono">Produto entregue</span>
+          </li>
+          <li class="compact-product-row">
+            <div class="compact-product-main">
+              <span class="project-index">02</span>
+              <span class="compact-product-name">Elo Padel</span>
+            </div>
+            <span class="label-mono">Produto entregue</span>
+          </li>
+          <li class="compact-product-row">
+            <div class="compact-product-main">
+              <span class="project-index">03</span>
+              <span class="compact-product-name">Central de Vendas</span>
+            </div>
+            <span class="label-mono">Produto entregue</span>
+          </li>
+          <li class="compact-product-row">
+            <div class="compact-product-main">
+              <span class="project-index">04</span>
+              <span class="compact-product-name">FinanSaaS</span>
+            </div>
+            <span class="label-mono">Produto entregue</span>
+          </li>
+          <li class="compact-product-row">
+            <div class="compact-product-main">
+              <span class="project-index">05</span>
+              <span class="compact-product-name">Automações Devz</span>
+            </div>
+            <span class="label-mono">Produto entregue</span>
+          </li>
+        </ul>
+      </section>
+
+      <!-- 05 — Stack -->
+      <section id="stack" class="doc-section" aria-labelledby="stack-heading">
+        <div class="section-header">
+          <div class="section-kicker">
+            <span class="section-filet" aria-hidden="true"></span>
+            <span class="section-number">05 —</span>
+            <span>Ferramental técnico</span>
+          </div>
+          <h2 id="stack-heading" class="section-title">Stack</h2>
+        </div>
+
+        <div class="stack-grid">
+          <div class="stack-block">
+            <span class="label-mono stack-category">01 · Linguagens e frameworks</span>
+            <p class="stack-items">TypeScript, JavaScript, Python, Node.js, NestJS, Fastify, React, Next.js, FastAPI</p>
+          </div>
+          <div class="stack-block">
+            <span class="label-mono stack-category">02 · Dados</span>
+            <p class="stack-items">PostgreSQL, Prisma, Drizzle, Redis, pgvector</p>
+          </div>
+          <div class="stack-block">
+            <span class="label-mono stack-category">03 · IA</span>
+            <p class="stack-items">LLMs, agentes, tool calling, MCP, RAG, embeddings, Whisper, avaliação de modelos</p>
+          </div>
+          <div class="stack-block">
+            <span class="label-mono stack-category">04 · Infraestrutura</span>
+            <p class="stack-items">Docker, Linux, VPS, Dokploy, Traefik, Nginx, Cloudflare, S3/MinIO, CI/CD</p>
+          </div>
+          <div class="stack-block stack-block--wide">
+            <span class="label-mono stack-category">05 · Integrações e segurança</span>
+            <p class="stack-items">Keycloak, OAuth2/OIDC, WhatsApp Business Platform, Evolution API, Safe2Pay, YouTube Data API, SharePoint</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 06 — Agora -->
+      <section id="agora" class="doc-section" aria-labelledby="agora-heading">
+        <div class="section-header">
+          <div class="section-kicker">
+            <span class="section-filet" aria-hidden="true"></span>
+            <span class="section-number">06 —</span>
+            <span>Operação atual</span>
+          </div>
+          <h2 id="agora-heading" class="section-title">Agora</h2>
+        </div>
+
+        <div class="now-card">
+          <div class="now-header">
+            <span class="label-mono">Status de produção · 2026</span>
+            <span class="label-mono">Joaçaba, SC</span>
+          </div>
+          <ul class="now-list">
+            <li class="now-item">
+              <span class="now-marker">01</span>
+              <span>Plataforma multicanal e agentes de IA em produção no ar.</span>
+            </li>
+            <li class="now-item">
+              <span class="now-marker">02</span>
+              <span>ERP próprio rodando em homologação.</span>
+            </li>
+            <li class="now-item">
+              <span class="now-marker">03</span>
+              <span>App de transcrição de reuniões com Whisper e Telegram.</span>
+            </li>
+            <li class="now-item">
+              <span class="now-marker">04</span>
+              <span>Infraestrutura em VPS com deploy automático por push.</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 07 — Contato -->
+      <section id="contato" class="doc-section" aria-labelledby="contato-heading">
+        <div class="section-header">
+          <div class="section-kicker">
+            <span class="section-filet" aria-hidden="true"></span>
+            <span class="section-number">07 —</span>
+            <span>Canais diretos</span>
+          </div>
+          <h2 id="contato-heading" class="section-title">Contato</h2>
+        </div>
+
+        <dl class="contact-dl">
+          <div class="contact-item">
+            <dt class="label-mono">E-mail</dt>
+            <dd class="contact-dd">
+              <a href="mailto:arthur_sumny2000@hotmail.com">arthur_sumny2000@hotmail.com</a>
+            </dd>
+          </div>
+          <div class="contact-item">
+            <dt class="label-mono">Telefone</dt>
+            <dd class="contact-dd">
+              <a href="tel:+5549998049138">(49) 99804-9138</a>
+            </dd>
+          </div>
+          <div class="contact-item">
+            <dt class="label-mono">LinkedIn</dt>
+            <dd class="contact-dd">
+              <a href="https://linkedin.com/in/arthur-sumny-saggin" target="_blank" rel="noopener noreferrer">linkedin.com/in/arthur-sumny-saggin</a>
+            </dd>
+          </div>
+          <div class="contact-item">
+            <dt class="label-mono">GitHub</dt>
+            <dd class="contact-dd">
+              <a href="https://github.com/arthursumny" target="_blank" rel="noopener noreferrer">github.com/arthursumny</a>
+            </dd>
+          </div>
+          <div class="contact-item contact-item--full">
+            <dt class="label-mono">Cidade</dt>
+            <dd class="contact-dd">Joaçaba, SC</dd>
+          </div>
+        </dl>
+      </section>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span class="label-mono">© 2026 Arthur Sumny Saggin</span>
+      <span class="label-mono">feito à mão em HTML</span>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

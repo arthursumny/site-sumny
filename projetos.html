@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Estudos de Caso — Arthur Sumny Saggin</title>
+  <meta name="description" content="Estudos de caso técnicos de Arthur Sumny Saggin: Plataforma multicanal whitelabel + agentes de IA, Pallagi Med e Pront.ai.">
+  <meta property="og:title" content="Estudos de Caso — Arthur Sumny Saggin">
+  <meta property="og:description" content="Aprofundamento técnico em 3 projetos em produção: Plataforma multicanal whitelabel + agentes de IA, Pallagi Med e Pront.ai.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sumny.tech/projetos.html">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23F6F4EF'/%3E%3Crect x='2' y='2' width='60' height='60' fill='none' stroke='%2316181C' stroke-width='2'/%3E%3Cline x1='12' y1='50' x2='52' y2='50' stroke='%23C2410C' stroke-width='3'/%3E%3Ctext x='32' y='41' text-anchor='middle' font-family='Georgia, serif' font-size='26' fill='%2316181C'%3EAS%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo-principal">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand-group">
+        <a class="brand-link" href="index.html">Arthur Sumny Saggin</a>
+        <span class="brand-location">Joaçaba, SC</span>
+      </div>
+
+      <div class="header-actions">
+        <a class="header-link" href="index.html">Início</a>
+        <a class="header-link" href="projetos.html" aria-current="page">Estudos de caso</a>
+        <a class="header-link" href="https://github.com/arthursumny" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a class="btn-cv" href="assets/curriculo-arthur-sumny.pdf" download>Currículo</a>
+        <button
+          type="button"
+          class="mobile-nav-toggle"
+          aria-expanded="false"
+          aria-controls="mobile-nav-panel"
+          aria-label="Alternar índice de navegação"
+        >
+          Índice
+        </button>
+      </div>
+    </div>
+
+    <nav id="mobile-nav-panel" class="mobile-nav-panel" aria-label="Índice e navegação de casos (mobile)">
+      <div class="container mobile-nav-inner">
+        <div class="mobile-nav-group">
+          <span class="label-mono mobile-nav-heading">Casos técnicos</span>
+          <ul class="mobile-nav-list">
+            <li><a class="mobile-nav-link" href="#introducao"><span class="index-num">01</span> Visão geral</a></li>
+            <li><a class="mobile-nav-link" href="#plataforma-multicanal"><span class="index-num">02</span> Multicanal + IA</a></li>
+            <li><a class="mobile-nav-link" href="#pallagi-med"><span class="index-num">03</span> Pallagi Med</a></li>
+            <li><a class="mobile-nav-link" href="#pront-ai"><span class="index-num">04</span> Pront.ai</a></li>
+            <li><a class="mobile-nav-link" href="#contato"><span class="index-num">05</span> Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="mobile-nav-group mobile-nav-footer">
+          <span class="label-mono mobile-nav-heading">Páginas &amp; Links</span>
+          <div class="mobile-nav-actions">
+            <a class="mobile-nav-action" href="index.html">← Início</a>
+            <a class="mobile-nav-action" href="https://github.com/arthursumny" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            <a class="mobile-nav-action mobile-nav-cv" href="assets/curriculo-arthur-sumny.pdf" download>Currículo (PDF) ↓</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container workspace-grid">
+    <aside class="sidebar-index" aria-label="Índice de estudos de caso">
+      <span class="label-mono sidebar-title">Estudos de caso</span>
+      <nav aria-label="Casos técnicos">
+        <ul class="index-list">
+          <li><a class="index-link" href="#introducao" aria-current="location"><span class="index-num">01</span> Introdução</a></li>
+          <li><a class="index-link" href="#plataforma-multicanal"><span class="index-num">02</span> Multicanal + IA</a></li>
+          <li><a class="index-link" href="#pallagi-med"><span class="index-num">03</span> Pallagi Med</a></li>
+          <li><a class="index-link" href="#pront-ai"><span class="index-num">04</span> Pront.ai</a></li>
+          <li><a class="index-link" href="#contato"><span class="index-num">05</span> Contato</a></li>
+        </ul>
+      </nav>
+      <div class="sidebar-meta">
+        <a class="project-kbd-link" href="index.html">
+          <kbd>← voltar ao início</kbd>
+        </a>
+      </div>
+    </aside>
+
+    <main id="conteudo-principal" class="content-column">
+      <!-- 01 — Introdução -->
+      <section id="introducao" class="doc-section" aria-labelledby="page-heading">
+        <div class="section-header">
+          <div class="section-kicker">
+            <span class="section-filet" aria-hidden="true"></span>
+            <span class="section-number">01 —</span>
+            <span>Caderno de arquitetura</span>
+          </div>
+          <h1 id="page-heading" class="section-title">Estudos de caso em produção</h1>
+        </div>
+
+        <p class="hero-support">
+          Aprofundamento técnico em três sistemas reais: contexto, problema de engenharia, implementação e decisão técnica.
+        </p>
+
+        <div class="hero-links">
+          <a class="project-kbd-link" href="index.html">
+            <kbd>← voltar para a página principal</kbd>
+          </a>
+          <a class="link-secondary" href="assets/curriculo-arthur-sumny.pdf" download>Baixar currículo</a>
+        </div>
+      </section>
+
+      <!-- 02 — Caso 1: Plataforma multicanal whitelabel + agentes de IA -->
+      <section id="plataforma-multicanal" class="doc-section" aria-labelledby="caso-1-heading">
+        <div class="section-header">
+          <div class="section-kicker">
+            <span class="section-filet" aria-hidden="true"></span>
+            <span class="section-number">02 —</span>
+            <span>Estudo de caso 01</span>
+          </div>
+          <h2 id="caso-1-heading" class="section-title">Plataforma multicanal whitelabel + agentes de IA</h2>
+        </div>
+
+        <article class="case-study">
+          <div class="case-meta-bar">
+            <span class="project-period">DevzGroup · desde 2025</span>
+            <ul class="tag-list" aria-label="Tecnologias do caso">
+              <li class="tag-item">multi-tenant</li>
+              <li class="tag-item">Evolution API</li>
+              <li class="tag-item">MCP</li>
+              <li class="tag-item">RAG</li>
+              <li class="tag-item">Docker/Dokploy</li>
+            </ul>
+          </div>
+
+          <div class="case-steps">
+            <div class="case-step">
+              <span class="label-mono case-step-label">01 · Contexto</span>
+              <p>
+                Plataforma de atendimento multicanal que empresas utilizam com a própria marca (whitelabel), operando simultaneamente em vários canais de comunicação sobre uma infraestrutura compartilhada.
+              </p>
+            </div>
+
+            <div class="case-step">
+              <span class="label-mono case-step-label">02 · Problema</span>
+              <p>
+                Manter a operação multi-tenant estável durante atualizações contínuas, sustentar a conectividade com o WhatsApp e acoplar agentes de IA capazes de responder com o conhecimento específico de cada cliente, consultar sistemas internos e transferir para atendimento humano sem comprometer a plataforma principal.
+              </p>
+            </div>
+
+            <div class="case-step">
+              <span class="label-mono case-step-label">03 · O que fiz</span>
+              <p>
+                Assumi a responsabilidade pela infraestrutura, atualizações, integração com WhatsApp via Evolution API, monitoramento e suporte aos clientes. Sobre a plataforma em produção, construí uma camada de agentes de IA utilizando servidores MCP, tool calling e RAG para recuperar o contexto de cada empresa, consultar sistemas internos e transferir para atendimento humano quando necessário.
+              </p>
+            </div>
+
+            <div class="case-step">
+              <span class="label-mono case-step-label">04 · Resultado / Decisão técnica</span>
+              <p>
+                A camada de agentes de IA foi estruturada com servidores MCP e RAG desacoplados do núcleo de mensageria, operando sobre containers gerenciados com Docker e Dokploy em VPS. A plataforma multicanal e os agentes seguem rodando em produção no ar.
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- 03 — Caso 2: Pallagi Med -->
+      <section id="pallagi-med" class="doc-section" aria-labelledby="caso-2-heading">
+        <div class="section-header">
+          <div class="section-kicker">
+            <span class="section-filet" aria-hidden="true"></span>
+            <span class="section-number">03 —</span>
+            <span>Estudo de caso 02</span>
+          </div>
+          <h2 id="caso-2-heading" class="section-title">Pallagi Med</h2>
+        </div>
+
+        <article class="case-study">
+          <div class="case-meta-bar">
+            <span class="project-period">DevzGroup · 2025–2026</span>
+            <ul class="tag-list" aria-label="Tecnologias do caso">
+              <li class="tag-item">webhook idempotente</li>
+              <li class="tag-item">auditoria fail-closed</li>
+              <li class="tag-item">Safe2Pay</li>
+            </ul>
+          </div>
+
+          <div class="case-steps">
+            <div class="case-step">
+              <span class="label-mono case-step-label">01 · Contexto</span>
+              <p>
+                Sistema de gestão para clínicas que centraliza agenda, prontuário, controle financeiro e repasses em um único ambiente operacional.
+              </p>
+            </div>
+
+            <div class="case-step">
+              <span class="label-mono case-step-label">02 · Problema</span>
+              <p>
+                No módulo financeiro e de cobrança por boleto, reentregas de notificações do gateway de pagamento ou falhas parciais durante o processamento não podem gerar baixas duplicadas nem permitir alterações financeiras sem trilha de auditoria.
+              </p>
+            </div>
+
+            <div class="case-step">
+              <span class="label-mono case-step-label">03 · O que fiz</span>
+              <p>
+                Desenvolvi a integração de cobrança por boleto com a Safe2Pay, implementando a confirmação automática de pagamento via webhook, proteção contra duplicidade no recebimento de eventos e registro de auditoria obrigatório em toda operação financeira.
+              </p>
+            </div>
+
+            <div class="case-step">
+              <span class="label-mono case-step-label">04 · Resultado / Decisão técnica</span>
+              <p>
+                Adoção de webhook idempotente para garantir que notificações repetidas da Safe2Pay sejam tratadas com segurança sem duplicar lançamentos, combinada com auditoria fail-closed: nenhuma operação financeira é efetivada caso o registro de auditoria correspondente falhe.
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- 04 — Caso 3: Pront.ai -->
+      <section id="pront-ai" class="doc-section" aria-labelledby="caso-3-heading">
+        <div class="section-header">
+          <div class="section-kicker">
+            <span class="section-filet" aria-hidden="true"></span>
+            <span class="section-number">04 —</span>
+            <span>Estudo de caso 03</span>
+          </div>
+          <h2 id="caso-3-heading" class="section-title">Pront.ai</h2>
+        </div>
+
+        <article class="case-study">
+          <div class="case-meta-bar">
+            <span class="project-period">Cofundador · desde 2025</span>
+            <ul class="tag-list" aria-label="Tecnologias do caso">
+              <li class="tag-item">Whisper</li>
+              <li class="tag-item">pgvector</li>
+              <li class="tag-item">filas assíncronas</li>
+            </ul>
+          </div>
+
+          <div class="case-steps">
+            <div class="case-step">
+              <span class="label-mono case-step-label">01 · Contexto</span>
+              <p>
+                SaaS de documentação clínica assistida por IA, construído do zero até a operação em produção com cliente pagante.
+              </p>
+            </div>
+
+            <div class="case-step">
+              <span class="label-mono case-step-label">02 · Problema</span>
+              <p>
+                O preenchimento manual do prontuário consome tempo da consulta médica, e o acúmulo de registros clínicos em texto livre dificulta a busca rápida por informações relevantes no histórico do paciente.
+              </p>
+            </div>
+
+            <div class="case-step">
+              <span class="label-mono case-step-label">03 · O que fiz</span>
+              <p>
+                Construí o fluxo completo em que o médico grava a consulta e recebe o registro clínico estruturado: transcrição do áudio com Whisper, estruturação automática do texto com LLMs e busca semântica no histórico do paciente.
+              </p>
+            </div>
+
+            <div class="case-step">
+              <span class="label-mono case-step-label">04 · Resultado / Decisão técnica</span>
+              <p>
+                Uso de filas assíncronas para desacoplar o upload e a transcrição com Whisper da resposta da aplicação, aliado ao PostgreSQL com pgvector para armazenar embeddings e realizar busca semântica diretamente no banco relacional.
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- 05 — Contato -->
+      <section id="contato" class="doc-section" aria-labelledby="contato-caso-heading">
+        <div class="section-header">
+          <div class="section-kicker">
+            <span class="section-filet" aria-hidden="true"></span>
+            <span class="section-number">05 —</span>
+            <span>Canais diretos</span>
+          </div>
+          <h2 id="contato-caso-heading" class="section-title">Contato</h2>
+        </div>
+
+        <dl class="contact-dl">
+          <div class="contact-item">
+            <dt class="label-mono">E-mail</dt>
+            <dd class="contact-dd">
+              <a href="mailto:arthur_sumny2000@hotmail.com">arthur_sumny2000@hotmail.com</a>
+            </dd>
+          </div>
+          <div class="contact-item">
+            <dt class="label-mono">Telefone</dt>
+            <dd class="contact-dd">
+              <a href="tel:+5549998049138">(49) 99804-9138</a>
+            </dd>
+          </div>
+          <div class="contact-item">
+            <dt class="label-mono">LinkedIn</dt>
+            <dd class="contact-dd">
+              <a href="https://linkedin.com/in/arthur-sumny-saggin" target="_blank" rel="noopener noreferrer">linkedin.com/in/arthur-sumny-saggin</a>
+            </dd>
+          </div>
+          <div class="contact-item">
+            <dt class="label-mono">GitHub</dt>
+            <dd class="contact-dd">
+              <a href="https://github.com/arthursumny" target="_blank" rel="noopener noreferrer">github.com/arthursumny</a>
+            </dd>
+          </div>
+        </dl>
+      </section>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span class="label-mono">© 2026 Arthur Sumny Saggin</span>
+      <span class="label-mono">feito à mão em HTML</span>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
